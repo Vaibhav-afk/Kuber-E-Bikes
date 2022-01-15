@@ -1,0 +1,16 @@
+.posterContainer {
+    text-align: center;
+}
+
+.poster {
+    /* width: 100vw; */
+    width: 98.92vw;
+    height: 82vh;
+}
+
+.line {
+    background-image: linear-gradient(to left, #6278FF, #5EA1FC);
+    margin: 0 auto;
+    height: 2.5px;
+    width: 55px;
+}

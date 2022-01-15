@@ -1,0 +1,27 @@
+.featureContainer {
+    margin: 0 auto;
+}
+
+.featureLogo {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right, #6378FF, #5D9FFB);
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 95px;
+    width: 95px;
+}
+
+.featureIcon {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(130deg) brightness(119%) contrast(116%);
+    text-align: center;
+    margin-top: 22px;
+    height: 45px;
+    width: 45px;
+}
+
+.featureName {
+    font-family: Raleway, sans-serif;
+    font-weight: 549;
+    font-size: 20px;
+    margin-top: 36px;
+}

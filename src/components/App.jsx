@@ -1,7 +1,30 @@
+import React from "react";
+import Navbar from "./navbar/Navbar";
+import Home from "../pages/home/Home";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useHistory,
+} from "react-router-dom";
+
+const Routing = () => {
+  return (
+    <>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+      </Routes>
+    </>
+  );
+};
+
 export default function App() {
   return (
-    <div className="App">
-      <h1>Kuber E Bikes</h1>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Routing />
+      </Router>
+    </>
   );
 }
