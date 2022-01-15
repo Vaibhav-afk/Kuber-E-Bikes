@@ -1,0 +1,25 @@
+.footer {
+    color: #FBFBFD;
+    margin: 0 13vw;
+    display: flex;
+    padding: 5px 6px 33px 6px;
+}
+
+.footerCopyright {
+    font-family: "PT Sans", sans-serif;
+    margin-right: 18vw;
+    font-weight: 560;
+    color: #7f88a6;
+    font-size: 14px;
+}
+
+.footerFbLogo {
+    margin-right: 20vw;
+}
+
+.footerOwnedBy {
+    font-family: "Times New Roman";
+    font-weight: 550;
+    color: #61636b;
+    font-size: 14px;
+}

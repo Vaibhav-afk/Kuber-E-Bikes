@@ -8,9 +8,3 @@
     height: 82vh;
 }
 
-.line {
-    background-image: linear-gradient(to left, #6278FF, #5EA1FC);
-    margin: 0 auto;
-    height: 2.5px;
-    width: 55px;
-}

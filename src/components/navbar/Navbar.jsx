@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="navbarRight">
           <div className="navbarIcon">
             <Link
-              to="/home"
+              to="/"
               style={{ textDecoration: "none", color: "#555555" }}
             >
               HOME
@@ -24,7 +24,7 @@ export default function Navbar() {
 
           <div className="navbarIcon">
             <Link
-              to="/about"
+              to="/"
               style={{ textDecoration: "none", color: "#555555" }}
             >
               ABOUT
@@ -33,7 +33,7 @@ export default function Navbar() {
 
           <div className="navbarIcon">
             <Link
-              to="/models"
+              to="/"
               style={{ textDecoration: "none", color: "#555555" }}
             >
               MODELS
@@ -42,7 +42,7 @@ export default function Navbar() {
 
           <div className="navbarIcon">
             <Link
-              to="/dealer"
+              to="/"
               style={{ textDecoration: "none", color: "#555555" }}
             >
               BECOME A DEALER

@@ -1,0 +1,60 @@
+.contactContainer {
+    margin-left: -1vw !important;
+    padding-top: 2vh;
+    display: flex;
+    margin: 0 10vw;
+}
+
+.contactBlock {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contactBlockTitle {
+    font-family: Times New Roman;
+    margin-bottom: 2vh;
+    font-size: 16px;
+}
+
+.contactDetail {
+    font-family: "PT Sans, sans-serif";
+    margin-bottom: 2vh;
+    color: #6a7695;
+    font-size: 13.7px;
+    font-weight: bold;
+}
+
+.contactBlockItem {
+    font-family: "PT Sans, sans-serif";
+    margin-bottom: 2vh;
+    font-weight: bold;
+    color: #6a7695;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.contactBlockItem:hover {
+    color: #5e2ced;
+}
+
+.contactBlockImage {
+    padding-bottom: 8vh;
+    text-align: center;
+}
+
+.india {
+    width: 27%;
+    height: 15%;
+}
+
+.contactImageMoving {
+    background: url(https://s1.gifyu.com/images/output-onlinegiftools.gif) no-repeat 50%;
+    -webkit-animation: myfirst 22s linear infinite;
+    animation: myfirst 22s linear infinite;
+    background-size: 100px;
+    position: absolute;
+    width: 330px;
+    height: 105px;
+    bottom: 0;
+    left: 30%;
+}

@@ -16,3 +16,12 @@
     padding-left: 10vw;
     display: flex;
 }
+
+.featuresUnderline {
+    background-image: linear-gradient(to left, #6278FF, #5EA1FC);
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    width: 55px;
+}

@@ -10,13 +10,22 @@ import Id from "../../assets/id.svg";
 
 export default function Features() {
   return (
-    <div className="features">
-      <div className="featuresWrapper">
-        <Feature logo={Leaf} name="Eco Friendly" />
-        <Feature logo={Tools} name="Low Maintainance" />
-        <Feature logo={Id} name="No License" />
-        <Feature logo={Book} name="No Registration" />
+    <>
+      <div className="featuresContainer">
+        <div className="featuresHeading">
+          <strong>
+            <h1>FEATURES</h1>
+          </strong>
+          <hr className="featuresUnderline" />
+        </div>
+
+        <div className="featuresWrapper">
+          <Feature logo={Leaf} name="Eco Friendly" />
+          <Feature logo={Tools} name="Low Maintainance" />
+          <Feature logo={Id} name="No License" />
+          <Feature logo={Book} name="No Registration" />
+        </div>
       </div>
-    </div>
+    </>
   );
 }

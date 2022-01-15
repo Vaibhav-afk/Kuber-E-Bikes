@@ -1,0 +1,40 @@
+.aboutContainer {
+    background-color: #F6F6F6;
+    padding: 12.7vh 13.3vw;
+}
+
+.aboutHeading {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    color: #333333;
+}
+
+.aboutUnderline {
+    background-image: linear-gradient(to left, #6278FF, #5EA1FC);
+    margin-top: 7px;
+    height: 3px;
+    width: 55px;
+}
+
+.aboutUsStatement {
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    margin: 4vh 0;
+    color: #777777;
+}
+
+.why {
+    font-family: Raleway, sans-serif;
+    margin-bottom: 2.5vh;
+    font-weight: 550;
+    color: #333333;
+    font-size: 22px;
+}
+
+.perks {
+    font-family: "PT Sans", sans-serif;
+    margin-bottom: 1.6vh;
+    color: #777777;
+    font-weight: 550;
+    font-size: 14px;
+}
