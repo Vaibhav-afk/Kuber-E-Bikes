@@ -1,12 +1,7 @@
 import React from "react";
 import Navbar from "./navbar/Navbar";
-import Home from "../pages/home/Home";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  useHistory,
-} from "react-router-dom";
+import Home from "./home/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const Routing = () => {
   return (

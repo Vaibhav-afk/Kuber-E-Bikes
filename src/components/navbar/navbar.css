@@ -43,3 +43,63 @@
     cursor: pointer;
     display: flex;
 }
+
+.toggleButton {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.toggleButton:hover {
+    opacity: 1;
+}
+
+.topbar {
+    background-color: #fff;
+    padding: 3vh 3vw 0 3vw;
+    overflow: hidden;
+    height: 22vh;
+}
+
+.topbarOption {
+    font-family: Lato, sans-serif;
+    margin-bottom: 3vh;
+    font-size: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1080px) {
+    .navbarLeft {
+        margin-left: 2vw;
+        flex: 2;
+    }
+
+    .navbarRight {
+        margin-right: 8vw;
+        flex: 4;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .toggleButton {
+        display: none;
+    }
+
+    .topbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .navbarIcon {
+        display: none;
+    }
+
+    .navbarRight {
+        margin-right: 6vw;
+        flex: 0;
+    }
+}
